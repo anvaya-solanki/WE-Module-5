@@ -3,28 +3,32 @@ body {
     background-color: #f8f9fa;
     color: #222;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-#content {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #a2a9b1;
+#wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    gap: 20px; 
 }
 
 #sidebar {
-    float: left;
     width: 250px;
-    padding: 10px;
+    padding: 15px;
     background-color: #f2f2f2;
     border: 1px solid #a2a9b1;
-    margin-right: 20px;
+    position: sticky;
+    top: 20px; 
 }
 
 #sidebar h3 {
     text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
 
 #sidebar ul {
@@ -39,6 +43,17 @@ body {
 #sidebar a {
     color: #0645ad;
     text-decoration: none;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #a2a9b1;
 }
 
 h1 {
@@ -99,13 +114,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Collapsible section styles */
 .content {
     display: none;
     margin-top: 10px;
 }
 
-/* Scroll to Top Button */
 #scrollToTopBtn {
     display: none;
     position: fixed;

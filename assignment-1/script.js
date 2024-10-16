@@ -1,4 +1,3 @@
-// Collapsible sections
 document.addEventListener('DOMContentLoaded', function () {
     let collapsibleHeaders = document.querySelectorAll('.collapsible');
     
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Scroll to Top button
     let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
     window.onscroll = function() {
