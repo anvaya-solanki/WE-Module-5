@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+#content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #a2a9b1;
+}
+
+#sidebar {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #a2a9b1;
+    margin-right: 20px;
+}
+
+#sidebar h3 {
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar li {
+    margin: 10px 0;
+}
+
+#sidebar a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 25px;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.infobox {
+    width: 250px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #a2a9b1;
+    background-color: #f9f9f9;
+}
+
+.infobox-header {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.infobox th, .infobox td {
+    padding: 5px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.infobox th {
+    text-align: left;
+    width: 100px;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Collapsible section styles */
+.content {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #333;
+}
